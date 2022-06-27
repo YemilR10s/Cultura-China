@@ -1,0 +1,265 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/************************************* menu ****************************************/
+header{
+    width: 100%;
+}
+header .logo{
+    line-height: 60px;
+    margin-left: 100px;
+    position: absolute;
+    color: bisque;
+
+    
+}
+header ul{
+    float: right;
+    margin-right: 100px;
+    
+}
+
+header ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0px 10px;
+    font-weight: bold;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    color: bisque;
+
+}
+header ul li:hover{
+    background: rgb(226, 89, 20);
+    border-radius: 10px;
+}
+
+section{
+    width: 100%;
+    height: 700PX;
+    background-image: url(../galerias/imagenes/p2-menu.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+section h2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 40px;
+    color: bisque;
+}
+
+@media (max-width:1075px) {
+    header ul{
+        position: relative;
+        margin-right: 10px;
+    }
+    
+}
+@media (max-width:937px) {
+    header ul li{
+        margin: 0px 0px;
+    }
+    header ul li a{
+        font-size: 20px;
+    
+    }
+    header .logo{
+        margin-left: 10px;
+
+    }
+    
+}
+@media (max-width:670px){
+    header .logo{
+        font-size: 20px;
+    }
+    header ul li a{
+        font-size: 15px;
+    }
+    header h2{
+        font-size: 20px;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+}
+@media (max-width:510px){
+    header .logo{
+        font-size: 10px;
+    }
+    header ul li a{
+        font-size: 8px;
+    }
+    header h2{
+        width: 100px;
+        font-size: 15px;
+        margin-top: 80px;
+        margin-left: 30px;
+    }
+    header ul li{
+        line-height: 20px;
+    }
+    header .logo{
+        line-height: 25px;
+    }
+}
+ /*************************************** TURISMO ********************************/
+ nav{
+     width: 100%;
+     height: 100%;
+     background: #fff;
+ }
+
+ nav h1{
+     text-align: center;
+     margin-top: 20px;
+ }
+
+.tarjetas-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px 20px 20px 20px;
+    
+}
+
+.tarjetas{
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+.tarjetas img{
+    width: 100%;
+
+}
+.tarjetas h1{
+    margin: 0px 0px 15px 0px;
+}
+@media (max-width:690px) {
+    .tarjetas-container{
+    grid-template-columns: auto auto;
+   }
+   nav h1{
+    font-size: 20px;
+}
+
+}
+@media (max-width:570px) {
+    .tarjetas-container{
+    grid-template-columns: auto;
+   }
+   nav h1{
+    font-size: 20px;
+}
+
+}
+
+/*********************************** HISTORIA *****************************/
+.sobreNosotros{
+    width: 100%;
+    height: 800px;
+    
+}
+.sobreNosotros h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.sobreNosotros .contenedor{
+    display: flex;
+}
+.sobreNosotros .contenedor .imagen{
+    width: 50%;
+    height: 700px;
+    background-image: url(sobre\ nosotros.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    margin: auto;
+}
+
+.sobreNosotros .contenedor .texto{
+    width: 50%;
+    display: flex;
+}
+.sobreNosotros .contenedor .texto p{
+   width: 400px;
+   height: 400px;
+   margin: auto;
+   font-size: 20px;
+
+}
+
+@media (max-width:880px) {
+
+    .sobreNosotros .contenedor .imagen{
+    display: none;
+}.sobreNosotros .contenedor .texto{
+    width: 100%;
+    display: flex;
+}
+.sobreNosotros .contenedor .texto p{
+   width: 300px;
+   height: 300px;
+   margin: auto;
+   font-size: 15px;
+
+}
+
+}
+
+/***********************************FOTER*******************************/
+
+footer{
+    width: 100%;
+    height: 600px;
+    background-image: url(footer.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+
+}
+
+footer form{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+footer form .item{
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+    box-shadow: 10px 10px 5px;
+
+}
+
+footer form h1{
+    text-align: center;
+    color: #fff;
+    
+}
+footer form .boton{
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px rgb(0,0 ,0,.5) inset,10px 10px 5px rgb(0,0 ,0,.5);
+}
+
+footer form p{
+    text-align: center;
+    color: #fff;
+}
+footer form p a{
+    text-align: center;
+    color: #fff;
+}
