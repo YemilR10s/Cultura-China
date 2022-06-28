@@ -44,7 +44,7 @@ header ul li:hover{
 section{
     width: 100%;
     height: 700PX;
-    background-image: url(menu.jpg);
+    background-image: url(imagenes/menu.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -180,7 +180,7 @@ section h2{
 .sobreNosotros .contenedor .imagen{
     width: 50%;
     height: 700px;
-    background-image: url(sobre\ nosotros.jpg);
+    background-image: url(imagenes/sobre\ nosotros.jpg);
     background-position: center;
     background-size: cover;
     object-fit: cover;
@@ -222,7 +222,7 @@ section h2{
 footer{
     width: 100%;
     height: 600px;
-    background-image: url(footer.jpg);
+    background-image: url(imagenes/footer.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
