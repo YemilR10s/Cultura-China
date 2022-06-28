@@ -44,7 +44,7 @@ header ul li:hover{
 section{
     width: 100%;
     height: 700PX;
-    background-image: url(../galerias/imagenes/p2-menu.jpg);
+    background-image: url(menu.jpg);
     background-position: center;
     background-size: cover;
 }
